@@ -1,0 +1,66 @@
+/* Footer */
+footer {
+    width: 100%;
+    margin:0%;
+    padding: 10px 0px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-image: url(/src/assets/footertrabajo.svg);
+    color:#FFFFFF;
+}
+.containerFooter {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    margin:5rem;
+}
+.containerFooter a  {
+    font-weight: 300;
+    text-decoration: none;
+    list-style: none;
+    color:#FFFFFF;
+    line-height: 2.6;
+}
+.containerFooter a:hover  {
+    font-weight: 300;
+    text-decoration: none;
+    list-style: none;
+    color: var(--rosa);
+}
+.boxFooter {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 20px 20px; 
+}
+.logoFooter img {
+    width: 180px;
+    height: 180px;
+    margin-top: -110px;
+    margin-left: 80px;
+}
+.boxFooter h4 {
+    margin-bottom: 40px;
+}
+.terms p {
+    margin-bottom: 40px;
+    font-weight: 300;
+}
+.phoneContact {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+}
+.phoneContact i {
+    width:40px;
+}
+.redesFooter {
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    width: 50px;   
+    gap: 30px;
+}
+.redesFooter i {
+    text-align: left;
+}

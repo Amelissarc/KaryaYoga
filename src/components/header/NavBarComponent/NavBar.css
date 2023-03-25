@@ -1,0 +1,232 @@
+/* -escritorio */
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--chocolate);
+  height: 88px;
+  position: relative;
+  padding: 0 4rem;
+}
+
+img {
+  width: 249px;
+  height: 45px;
+  margin: 1rem;
+}
+
+/* Search */
+.formSearch {
+  margin: 1.5rem;
+  width: 500px;
+}
+
+button.btn-outline-success {
+  color: var(--negro);
+  border-color: var(--boton-secundary);
+  margin-left: -40px;
+  padding: 0;
+}
+
+button.btn-outline-success:hover {
+  color: var(--chocolate);
+  background-color: var(--boton-secundary);
+  border-color: var(--boton-secundary);
+}
+
+input.me-2.form-control {
+  border-radius: 140px;
+}
+
+/* Account and Cart */
+.accountAndCartHeader {
+  display: flex;
+}
+.accountAndCartHeader a {
+  color: var(--boton-secundary);
+  font-size: 1rem;
+  text-decoration: none;
+}
+.accountAndCartHeader a:hover {
+  color: var(--rosa);
+}
+.accountAndCartHeader i {
+  color: var(--boton-secundary);
+  padding: 2rem .6rem;
+  font-size: 20px;
+}
+
+.indicator {
+  padding: 2px 4px;
+  border-radius: 50%;
+  background-color: #E5BCD9;
+  color: #000;
+  font-size: xx-small;
+  text-align: center;
+}
+
+.accountAndCartHeader i:hover {
+  color: var(--rosa);
+}
+/* Aside */
+aside {
+  background-color: var(--rosa);
+  width: 100%;
+  padding: 26px;
+  position:absolute;
+}
+
+div.container-fluid {
+  padding-right: 0;
+}
+
+/* NavBar */
+
+.navbar {
+  margin: 0px 4rem;
+}
+
+a.navbar-brand {
+  font-size: 1rem;
+  margin-right: 1rem;
+  color:var( --gris-texto);
+  font-weight: 300;
+}
+
+a.navbar-brand:hover {
+  color: var(--chocolate);
+}
+
+a.dropdown-item:hover {
+  background-color:var(--rosa);
+  color: var(--chocolate);
+}
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+}
+
+a.dropdown-toggle:hover {
+  color: var(--chocolate);
+}
+
+/*movil*/
+/*Portrait*/
+/*Default*/
+@media (max-width: 575.98px)and (orientation:portrait) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    background-color: var(--chocolate);
+    height: 200px;
+    position: relative;
+    padding: 0;
+  }
+  
+  img {
+    width: 200px;
+    height: 40px;
+    margin: 1rem;
+  }
+  
+  /* Search */
+  .formSearch {
+    margin: 1rem;
+    width: 300px;
+  }
+  
+  button.btn-outline-success {
+    color: var(--negro);
+    border-color: var(--boton-secundary);
+    margin-left: -40px;
+    padding: 0;
+  }
+  
+  button.btn-outline-success:hover {
+    color: var(--chocolate);
+    background-color: var(--boton-secundary);
+    border-color: var(--boton-secundary);
+  }
+  
+  input.me-2.form-control {
+    border-radius: 140px;
+  }
+  
+  /* Account and Cart */
+  .accountAndCartHeader a{
+    display: flex;
+    margin: 0 30px;
+  }
+  .accountAndCartHeader a {
+    color: var(--boton-secundary);
+    font-size: 1rem;
+    text-decoration: none;
+  }
+  .accountAndCartHeader a:hover {
+    color: var(--rosa);
+  }
+  .accountAndCartHeader i {
+    color: var(--boton-secundary);
+    padding: 0.5rem;
+    font-size: 20px;
+  }
+  
+  .indicator {
+    padding: 2px 3px;
+    border-radius: 50%;
+    background-color: #E5BCD9;
+    color: #000;
+    font-size: xx-small;
+    text-align: center;
+  }
+  
+  .accountAndCartHeader i:hover {
+    color: var(--rosa);
+  }
+  /* Aside */
+  aside {
+    background-color: var(--rosa);
+    width: 100%;
+    padding: 130px;
+    position:absolute;
+  }
+  
+  div.container-fluid {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* NavBar */
+  
+  .navbar {
+    margin: 0px 0.5rem;
+  }
+  a.navbar-brand {
+    font-size: 1rem;
+    margin-right: 1rem;
+    width: 160px;
+    color:var( --gris-texto);
+    font-weight: 300;
+  }
+  
+  a.navbar-brand:hover {
+    color: var(--chocolate);
+  }
+  
+  a.dropdown-item:hover {
+    background-color:var(--rosa);
+    color: var(--chocolate);
+  }
+  
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+  }
+  
+  a.dropdown-toggle:hover {
+    color: var(--chocolate);
+  }
+}

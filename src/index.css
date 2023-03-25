@@ -1,0 +1,40 @@
+/* Colors */
+:root {
+  --chocolate: #561220;
+  --rosa: #E5BCD9;
+  --negro: #1D1D1B;
+  --boton-principal: #AB4E6B;
+  --boton-secundary: #FFFFFF;
+  --separador: #CED0D3;
+  --gris-texto: #6B737C;
+}
+
+/* Generales */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: auto;
+}
+
+.bodyContainer {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}
+
+.mainContainer {
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  overflow: hidden;
+}
