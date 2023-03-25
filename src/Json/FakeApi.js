@@ -12,7 +12,7 @@
 
         {
             id: "2",
-            category: "YogaSet",
+            category:"YogaSet",
             img: "https://img.freepik.com/foto-gratis/vista-superior-articulos-esenciales-yoga_23-2149458925.jpg?w=1060&t=st=1678402319~exp=1678402919~hmac=b65663f3954f5169f941c373c6b3849ce85bbd81e4eb227cbe9f0de2131c458d",
             name: "Card Title 2",
             text: "Some quick example text to build on the card  and make up the bulk of the card's content.",

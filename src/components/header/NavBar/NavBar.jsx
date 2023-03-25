@@ -1,6 +1,7 @@
 import React from 'react';
 import FolderList from '../HandleListItem/HandleListItem';
 import { NavLink } from 'react-router-dom';
+import Style from './NavBar.css'
 
 /* Bootstrap */
 import Container from 'react-bootstrap/Container';
@@ -18,9 +19,9 @@ export const NavbarDarkExample = () =>{
               <NavLink
                 className="nav-link active"
                 aria-current="page"
-                to="/category/nuevos"
+                to="/"
               >
-                Nuevos
+                All Products
               </NavLink>
             </li>
             <li className="nav-item">
@@ -28,9 +29,9 @@ export const NavbarDarkExample = () =>{
               <NavLink
                 className="nav-link active"
                 aria-current="page"
-                to="/category/ofertas"
+                to="/category/YogaSet"
               >
-                Ofertas
+                Yoga Set
               </NavLink>
             </li>
             <li className="nav-item">
@@ -38,9 +39,49 @@ export const NavbarDarkExample = () =>{
               <NavLink
                 className="nav-link active"
                 aria-current="page"
-                to="/category/mas vendidos"
+                to="/category/Drinkware"
               >
-                Mas Vendidos
+                Drinkware
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              {' '}
+              <NavLink
+                className="nav-link active"
+                aria-current="page"
+                to="/category/Bolster"
+              >
+                Bolster
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              {' '}
+              <NavLink
+                className="nav-link active"
+                aria-current="page"
+                to="/category/YogaBlock"
+              >
+                Yoga Block
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              {' '}
+              <NavLink
+                className="nav-link active"
+                aria-current="page"
+                to="/category/Shirts"
+              >
+                Shirts
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              {' '}
+              <NavLink
+                className="nav-link active"
+                aria-current="page"
+                to="/category/Books"
+              >
+                Books
               </NavLink>
             </li>
           </ul>

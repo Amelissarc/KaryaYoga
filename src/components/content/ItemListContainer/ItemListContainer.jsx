@@ -3,6 +3,7 @@ import ItemList from '../ItemList/ItemList';
 import { getProducts } from '../../../Json/FakeApi';
 import Loader from '../Loader/Loader';
 import { useParams } from 'react-router-dom';
+import Style from './ItemList.css';
 
 const ItemListContainer = ({ greeting }) => {
     const [listaProductos, setListaProductos] = useState([]);
@@ -23,10 +24,10 @@ const ItemListContainer = ({ greeting }) => {
     }, [id]);
 
     return (
-        <div>
+        <div className='container'>
             <h2>
                 {greeting}{' '}
-                <span style={{ textTransform: 'capitalize', color: '#c737d7' }}>
+                <span style={{ color: '#561220' }}>
                     {id && id}
                 </span>
             </h2>

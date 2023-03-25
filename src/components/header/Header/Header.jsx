@@ -1,6 +1,8 @@
 import React from 'react';
 import CartWidget from '../CartWidget/CartWidget';
 import LoginWidget from '../LoginWidget/LoginWidget';
+import Style from './Header.css'
+import NavbarDarkExample from '../NavBar/NavBar'
 
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
@@ -35,7 +37,9 @@ export const Header = () => {
                 </div>
             </header>
             <aside>
-                <div className="asideHeader"></div>
+                <div className="asideHeader">
+                    <NavbarDarkExample />
+                </div>
             </aside>
         </div>
     )

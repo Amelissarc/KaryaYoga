@@ -1,18 +1,22 @@
 import React from 'react';
-import { CircleLoader } from 'react-spinners';
+import { Ring } from '@uiball/loaders'
 
 const Loader = () => {
     return (
     <div
         style={{
-        width: '100vw',
-        heigth: '100vh',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
+        marginTop: '10rem',
         }}
     >
-        <CircleLoader color="#c737d7" size={90} />
+        <Ring 
+            size={80}
+            lineWeight={5}
+            speed={2} 
+            color="#561220" 
+        />
     </div>
     );
 };
