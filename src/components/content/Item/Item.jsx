@@ -7,20 +7,24 @@ export const Item =({producto}) => {
     const navegar = useNavigate();
 
     return (
-    <Card style={{ width: '20rem' }}>
-        <Card.Img variant="top" src={img} />
-        <Card.Body>
-            <p className="cardName">{name}</p>
-            <p className="cardCategory">{category}</p>
+    <Card style={{ width: '20rem' }} className="card-container">
+        <Card.Img variant="top" src={img} className="card-img"/>
+        <Card.Body >
+            <p className="item-list-container__title">{name}</p>
+            <p className="card-category">{category}</p>
             <p className="card-text">{text}</p>
-            <p className="card-text">${price}</p>
-            <p className="card-text">stock: {stock}</p> 
-            <button
-                className="btn btn-primary"
+            <div className="items-card">
+                <div>
+                <p className="item-price">Price: ${price}</p>
+                <p className="item-stock">Stock: {stock}</p>
+                </div>
+                <button
+                className="buttonText"
                 onClick={() => navegar(`/item/${id}`)}
             >
-                Ver más
-            </button> 
+                See more
+            </button>
+            </div> 
         </Card.Body>
     </Card>
     )

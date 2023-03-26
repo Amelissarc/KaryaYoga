@@ -13,8 +13,8 @@ export const NavbarDarkExample = () =>{
     return (
         <Navbar bg="#E5BCD9" expand="lg">
         <Container fluid>
-        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item">
               {' '}
               <NavLink
                 className="nav-link active"
@@ -23,8 +23,8 @@ export const NavbarDarkExample = () =>{
               >
                 All Products
               </NavLink>
-            </li>
-            <li className="nav-item">
+              </li>
+              <li className="nav-item">
               {' '}
               <NavLink
                 className="nav-link active"
@@ -33,8 +33,8 @@ export const NavbarDarkExample = () =>{
               >
                 Yoga Set
               </NavLink>
-            </li>
-            <li className="nav-item">
+              </li>
+              <li className="nav-item">
               {' '}
               <NavLink
                 className="nav-link active"
@@ -43,8 +43,8 @@ export const NavbarDarkExample = () =>{
               >
                 Drinkware
               </NavLink>
-            </li>
-            <li className="nav-item">
+              </li>
+              <li className="nav-item">
               {' '}
               <NavLink
                 className="nav-link active"
@@ -53,8 +53,8 @@ export const NavbarDarkExample = () =>{
               >
                 Bolster
               </NavLink>
-            </li>
-            <li className="nav-item">
+              </li>
+              <li className="nav-item">
               {' '}
               <NavLink
                 className="nav-link active"
@@ -63,8 +63,8 @@ export const NavbarDarkExample = () =>{
               >
                 Yoga Block
               </NavLink>
-            </li>
-            <li className="nav-item">
+              </li>
+              <li className="nav-item">
               {' '}
               <NavLink
                 className="nav-link active"
@@ -73,8 +73,8 @@ export const NavbarDarkExample = () =>{
               >
                 Shirts
               </NavLink>
-            </li>
-            <li className="nav-item">
+              </li>
+              <li className="nav-item">
               {' '}
               <NavLink
                 className="nav-link active"
@@ -83,9 +83,8 @@ export const NavbarDarkExample = () =>{
               >
                 Books
               </NavLink>
-            </li>
-          </ul>
-            
+              </li>
+            </ul>
             <Navbar.Toggle aria-controls="navbar-dark-example" />
             <Navbar.Collapse id="navbar-dark-example">
             <Nav>

@@ -8,10 +8,10 @@ header {
     position: relative;
     padding: 0 4rem;
   }
-  
-  img {
-    width: 249px;
-    height: 45px;
+
+  .logoHeader img {
+    width: 200px;
+    height: 40px;
     margin: 1rem;
   }
   

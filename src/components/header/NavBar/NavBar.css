@@ -25,7 +25,8 @@
     width: 160px;
     color:var( --gris-texto);
     font-weight: 300;
-    list-style: none;;
+    list-style: none;
+    text-decoration: none;
   }
   
   a.nav-link:hover {

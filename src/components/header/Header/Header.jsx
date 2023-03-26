@@ -12,7 +12,7 @@ export const Header = () => {
         <div>
             <header>
                 <div className="logoHeader">
-                    <img src="./img/tipo-blancotrabajo.png" alt="logo"/>
+                    <img src="./img/tipo-blancotrabajo.png" alt="logo" />
                 </div>
                 <div className='formSearch'>
                 <Form className="d-flex">

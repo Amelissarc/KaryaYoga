@@ -4,7 +4,7 @@ export const ItemCount = ({ stock, initial, onAdd}) => {
     const [count, setCount] = useState(initial);
 
     const addCount = () => {
-        if (count > stock) {
+        if (count < stock) {
         setCount(count + 1);
         }
     }
@@ -30,7 +30,7 @@ return (
             disabled={count === 0 || stock === 0}
             onclick= {() => onAdd(count)}
         >
-        Comprar
+        Add to cart
         </button> 
     </>
 );

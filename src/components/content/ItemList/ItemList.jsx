@@ -6,7 +6,7 @@ const ItemList = ({ listaProductos }) => {
     <div
         style={{
             display: 'flex',
-            justifyContent: 'space-between',
+            justifyContent: 'space-evenly',
             alignItems: 'center',
             flexWrap: 'wrap',
         }}

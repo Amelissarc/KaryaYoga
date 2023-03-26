@@ -1,0 +1,52 @@
+
+.containerDetail {
+    background-image:url(/public/img/tramatrabajo.png);
+    height: 600px;
+}
+.card-content {
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    margin: 5rem 15%;
+    background-color:#FFFFFF;
+    border-radius: 8px;
+    width: 1000px;
+    height: 400px;
+    border: 1px solid var(--chocolate);
+}
+h2.titleDetail {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--chocolate);
+    margin: 2rem 0 0 0;
+}
+
+.img-detail {
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+.text-detail {
+    width: 400px;
+    text-align: left;
+}
+
+.item-price, .item-stock {
+    color: var(--chocolate);
+    font-weight: 300;
+}
+
+.container-info {
+    margin-left: 2rem;
+    text-align: left;
+    line-height: 1.8;
+}
+.card-category-detail {
+    color: var(--boton-principal);
+    font-weight: 300;
+}
+
+.card-category-payment {
+    color: var(--chocolate);
+}
