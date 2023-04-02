@@ -28,6 +28,10 @@
     list-style: none;
     text-decoration: none;
   }
+
+  .navbar-dark-example {
+
+  }
   
   a.nav-link:hover {
     color: var(--chocolate);

@@ -6,9 +6,12 @@ import ItemDetailContainer from './components/content/ItemDetailContainer/ItemDe
 import ErrorPage from './components/content//Error/ErrorPage';
 import Footer from './components/footer/FooterComponent'
 import Style from './index.css';
+import Cart from './components/header/Cart/Cart'
+import { CartProvider } from './context/CartContext';
 
 export default function App() {
   return (
+    <CartProvider>
     <BrowserRouter>
       <Header />
       <Routes>
@@ -23,9 +26,11 @@ export default function App() {
           element={<ItemListContainer greeting="Category:" />}
         />
         <Route path="/item/:id" element={<ItemDetailContainer />} />
+        <Route path="/cart" element={<Cart />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />
     </BrowserRouter>
+    </CartProvider>
   );
 }

@@ -1,12 +1,16 @@
-import { textAlign } from '@mui/system';
-import React from 'react';
+import React, { useState } from 'react';
 import ItemCount from '../ItemCount/ItemCount';
+import { useCart } from '../../../context/CartContext';
+import { Link } from 'react-router-dom';
 import Style from './ItemDetail.css';
 
 const ItemDetail = ({ detalleProducto }) => {
     const { name, text, price, stock, img, id, category } = detalleProducto;
+    const { addItem } = useCart();
+    const [compra, setCompra] = useState(false);
     const onAdd = (cantidad) => {
-        console.log(`Compraste ${cantidad} items`);
+        addItem(detalleProducto, cantidad);
+        setCompra(true);
 };
     return (
     <div className='containerDetail'> 
@@ -22,7 +26,13 @@ const ItemDetail = ({ detalleProducto }) => {
                     <p className="card-category-payment">See the payment methods</p>
                     <p className='text-detail'>{text}</p>
                     <p className="item-stock">Stock: {stock}</p>
+                    {compra ? (
+                        <Link className="buttonText" to={'/cart'}>
+                        Ir al carrito
+                        </Link>
+                    ) : (
                         <ItemCount initial={1} stock={stock} onAdd={onAdd} />
+                    )}
                 </div>
             </div>
         </div>

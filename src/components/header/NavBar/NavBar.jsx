@@ -94,7 +94,6 @@ export const NavbarDarkExample = () =>{
                 >
                     <FolderList />
                     <NavDropdown.Divider />
-
                     <NavDropdown.Item href="#action/3.4">Go to Home</NavDropdown.Item>
                 </NavDropdown>
             </Nav>

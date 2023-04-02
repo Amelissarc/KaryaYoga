@@ -11,12 +11,12 @@ const ErrorPage = () => {
         }}
     >
         <img
-        src="https://img.freepik.com/vector-gratis/fondo-error-404-diseno-divertido_1167-219.jpg?w=2000"
+        src="https://img.freepik.com/vector-gratis/ups-error-404-ilustracion-concepto-robot-roto_114360-5529.jpg?w=740&t=st=1680134750~exp=1680135350~hmac=9451884cf3100427ec899ffef2e0a742f918ec8f142d874ec0c0b110b41f1f94"
         alt="error"
         style={{ width: '90%', marginBottom: 15 }}
         />
         <Link className="btn btn-dark" to={'/'}>
-        Volver a Home
+        Return Home
         </Link>
     </div>
     );

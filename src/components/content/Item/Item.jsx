@@ -19,11 +19,11 @@ export const Item =({producto}) => {
                 <p className="item-stock">Stock: {stock}</p>
                 </div>
                 <button
-                className="buttonText"
-                onClick={() => navegar(`/item/${id}`)}
+                    className="buttonText"
+                    onClick={() => navegar(`/item/${id}`)}
             >
-                See more
-            </button>
+                    See more
+                </button>
             </div> 
         </Card.Body>
     </Card>
