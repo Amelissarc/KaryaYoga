@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import ItemList from '../ItemList/ItemList';
 import { getProducts } from '../../../Json/FakeApi';
-import { useParams } from 'react-router-dom';
 import Loader from '../Loader/Loader';
+import { useParams } from 'react-router-dom';
 import Style from './ItemList.css';
 
 const ItemListContainer = ({ greeting }) => {

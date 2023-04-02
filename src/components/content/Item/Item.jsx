@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
 
-export const Item =({producto}) => {
+const Item =({producto}) => {
     const { id, category, img, name, text, price, stock} = producto;
     const navegar = useNavigate();
 

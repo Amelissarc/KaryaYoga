@@ -1,6 +1,6 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 
-export const ItemCount = ({ stock, initial, onAdd}) => {
+const ItemCount = ({ stock, initial, onAdd}) => {
     const [count, setCount] = useState(initial);
 
     const addCount = () => {
@@ -28,7 +28,7 @@ return (
         <button 
             className='buttonText' 
             disabled={count === 0 || stock === 0}
-            onclick= {() => onAdd(count)}
+            onclick={() => onAdd(count)}
         >
         Add to cart
         </button> 
