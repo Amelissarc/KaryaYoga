@@ -7,3 +7,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 <p align="left">
    <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
 </p>
+
+Este proyecto consiste en el desarrollo de una página web dedicada a la práctica de yoga y
+la venta de productos de la marca relacionados con este estilo de vida. 
+La página está construida utilizando la biblioteca de JavaScript React.js 
+para crear una experiencia de usuario fluida e interactiva.
