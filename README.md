@@ -1,5 +1,6 @@
 <h1 align="center"> KARYA YOGA </h1>
-[logokarya](https://user-images.githubusercontent.com/107637019/231019620-faa3870a-9fb2-4af2-9b43-00927f20e467.png)
+
+![logo-webtrabajo](https://user-images.githubusercontent.com/107637019/231020133-19a3abda-98fd-4e14-8ff6-8b7348e499ae.png)
 
 
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
