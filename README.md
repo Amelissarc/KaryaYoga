@@ -6,8 +6,8 @@
 
 Descargar el repositorio, instalar sus dependencias y luego ejecutar de manera local:
 
-npm i
-npm start
+-`npm i`
+-`npm start`
 
 ### Dirección local:
 (http://localhost:3000)
