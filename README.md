@@ -4,10 +4,10 @@
 
 ### Para ejecutar Localmente:
 
-Descarga este proyecto y en la raiz del proyecto debes realizar:
+Descargar el repositorio, instalar sus dependencias y luego ejecutar de manera local:
 
-Para instalar las dependencias: npm 
-Para ejecutar localmente: npm start
+npm i
+npm start
 
 ### Dirección local:
 (http://localhost:3000)
