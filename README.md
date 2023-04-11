@@ -1,6 +1,8 @@
 <h1 align="center"> KARYA YOGA </h1>
 
-![logo-webtrabajo](https://user-images.githubusercontent.com/107637019/231020133-19a3abda-98fd-4e14-8ff6-8b7348e499ae.png)
+<div aling="center">
+   <img src="https://user-images.githubusercontent.com/107637019/231020133-19a3abda-98fd-4e14-8ff6-8b7348e499ae.png">
+</div>
 
 ### Para ejecutar Localmente:
 
