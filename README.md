@@ -2,8 +2,15 @@
 
 ![logo-webtrabajo](https://user-images.githubusercontent.com/107637019/231020133-19a3abda-98fd-4e14-8ff6-8b7348e499ae.png)
 
+### Para ejecutar Localmente:
 
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Descarga este proyecto y en la raiz del proyecto debes realizar:
+
+Para instalar las dependencias: npm 
+Para ejecutar localmente: npm start
+
+### Dirección local:
+(http://localhost:3000)
 <p align="left">
    <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
 </p>
