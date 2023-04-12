@@ -11,24 +11,28 @@ const Cart = () => {
         <div>
             {!cart.length ? (
                 <div>
-                    <h2>Tu carrito esta vacio</h2>
+                    <h2>Your cart is empty</h2>
                     <button className='btn btn-success' onClick={() => navegar('/')}>
-                        Ir a comprar
+                        Go shopping
                     </button>
                 </div>
             ) : (
                 <div>
-                    <h2>Tu carrito</h2>
+                    <h2>Your cart</h2>
                     {cart.map((compra) => (
                         <CartItem key={compra.id} compra={compra} />
                     ))}
-                    <span>Total a pagar: ${cartTotal()}</span>
+                    <span>Total payable: ${cartTotal()}</span>
                 <div>
-                    <button className='btn btn-danger' onClick={clear}>
-                        Vaciar carrito
+                    <button 
+                        clas sName='btn btn-danger' 
+                        onClick={clear}>
+                            Empty cart
                     </button>
-                    <button className='btn btn-success' onClick={() => navegar('/checkout')}>
-                        Terminar compra
+                    <button 
+                        className='btn btn-success' 
+                        onClick={() => navegar('/checkout')}>
+                            Finish purchase
                     </button>
                 </div>
                 </div>
