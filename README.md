@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+<h1 align="center"> KARYA YOGA </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div width="300px">
+   <img src="https://user-images.githubusercontent.com/107637019/231020133-19a3abda-98fd-4e14-8ff6-8b7348e499ae.png">
+</div>
 
-## Available Scripts
+### Para ejecutar Localmente:
 
-In the project directory, you can run:
+Descargar el repositorio, instalar sus dependencias y luego ejecutar de manera local:
 
-### `npm start`
+-`npm i`
+-`npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Dirección local:
+(http://localhost:3000)
+<p align="left">
+   <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
+</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Este proyecto consiste en el desarrollo de una página web dedicada a la práctica de yoga y
+la venta de productos de la marca relacionados con este estilo de vida. 
+La página está construida utilizando la biblioteca de JavaScript React.js 
+para crear una experiencia de usuario fluida e interactiva.
 
-### `npm test`
+## :hammer:Funcionalidades del proyecto
+:construction: Proyecto en construcción :construction:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- `Catálogo de productos`: Contamos con una amplia variedad de productos exclusivos relacionados con la práctica del yoga, desde esterillas y bloqueadores hasta ropa y accesorios. Todos nuestros productos están cuidadosamente seleccionados y diseñados para ofrecer la mejor experiencia de uso posible. 
+- `Carrito de compras`: Ofrecemos a nuestros clientes la posibilidad de agregar los productos que desean comprar a un carrito de compras virtual, para luego poder confirmar su pedido y proceder al pago de manera segura y confiable. 
+- `Integración de pagos`: Utilizamos diversas opciones de pago, como tarjetas de crédito, transferencias bancarias y billeteras digitales, para facilitar el proceso de compra a nuestros clientes y garantizar la seguridad de sus transacciones. 
+- `Administración de pedidos`: Contamos con un sistema de gestión de pedidos que nos permite llevar un control detallado de todas las transacciones, desde el momento en que se realiza el pedido hasta que el cliente recibe su producto. De esta manera, podemos garantizar una atención personalizada y un servicio de calidad.
