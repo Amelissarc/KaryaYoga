@@ -8,9 +8,9 @@ const Cart = () => {
     const navegar = useNavigate();
     console.log(cart);
     return (
-        <div>
+        <div className='cartpage'>
             {!cart.length ? (
-                <div>
+                <div className='goShopping'>
                     <h2>Your cart is empty</h2>
                     <button className='btn btn-success' onClick={() => navegar('/')}>
                         Go shopping
@@ -18,14 +18,21 @@ const Cart = () => {
                 </div>
             ) : (
                 <div>
-                    <h2>Your cart</h2>
+                    <h2 className='yourCart'>Your Cart</h2>
                     {cart.map((compra) => (
                         <CartItem key={compra.id} compra={compra} />
                     ))}
-                    <span>Total payable: ${cartTotal()}</span>
-                <div>
+                    
+                </div>
+            )}
+            <div className='cartButtons'>
+                <h2>Order Summary</h2>
+                <div className='cartSpan'>
+                    <span>Total:</span>
+                    <span>${cartTotal()}</span>
+                </div>
                     <button 
-                        clas sName='btn btn-danger' 
+                        className='btn btn-danger' 
                         onClick={clear}>
                             Empty cart
                     </button>
@@ -35,8 +42,6 @@ const Cart = () => {
                             Finish purchase
                     </button>
                 </div>
-                </div>
-            )}
         </div>
     )
 }

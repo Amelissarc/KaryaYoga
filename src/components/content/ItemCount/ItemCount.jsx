@@ -28,7 +28,7 @@ return (
         <button 
             className='buttonText' 
             disabled={count === 0 || stock === 0}
-            onclick={() => onAdd(count)}
+            onClick={() => onAdd(count)}
         >
             Add to cart
         </button> 

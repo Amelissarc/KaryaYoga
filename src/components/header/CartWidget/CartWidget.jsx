@@ -7,9 +7,8 @@ export const CartWidget = () => {
     
 return (
     <div className='cartWidge'>
-        <i className="fa-solid fa-cart-shopping">
-        <span>{cartQuantity() || ''}</span>
-        </i>
+        <a href="./Cart" ><i className="fa-solid fa-cart-shopping"></i><span className='indicator'>{cartQuantity() || '0'}</span></a>
+        
         <span>{titleName}</span>
     </div>
 );

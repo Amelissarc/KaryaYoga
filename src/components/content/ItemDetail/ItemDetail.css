@@ -50,3 +50,100 @@ h2.titleDetail {
 .card-category-payment {
     color: var(--chocolate);
 }
+
+.buttonText {
+    text-decoration: none;
+}
+
+.btn-danger {
+    display: flex;
+    background-color:#AB4E6B;
+    color: #FFFFFF;
+    padding: 8px;
+    border-radius: 140px;
+    border-color: var(--chocolate);
+    width: 250px;
+    justify-content: center;
+}
+
+.btn-success {
+    display: flex;
+    background-color:var(--chocolate);
+    color: #FFFFFF;
+    padding: 8px;
+    border-radius: 140px;
+    border-color: var(--chocolate);
+    width: 250px;
+    justify-content: center;
+}
+.cartpage {
+    display: flex;
+    justify-content: space-between;
+}
+.cartButtons {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    gap: 10px;
+    margin-top: 5rem;
+    margin-right: 3rem;
+    padding-left: 10px;
+}
+.yourCart {
+    margin: 5rem 0 0 5rem;
+}
+
+img {
+    border-radius: 8px;
+    width: 300px;
+}
+
+.cartGeneral {
+    display: flex;
+    padding: 2rem 0rem;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--chocolate);
+    margin-left: 5rem;
+}
+.cartGeneralDetail {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    width: 400px;
+}
+
+.detailCart {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    line-height: 1.6;
+}
+
+.cartName {
+    font-size: 18px;
+    font-weight:700;
+}
+
+.cartQuanty {
+    font-size: 16px;
+}
+
+.btnX {
+    background-color: white;
+    border: none;
+    text-align: left;
+    padding-top: 8rem;
+}
+
+.btnX i {
+    color: var(--chocolate);
+}
+
+.cartSpan {
+    display: flex;
+    justify-content: space-between;
+}
+
+.goShopping {
+    margin: 5rem;
+}
