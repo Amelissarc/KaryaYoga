@@ -60,12 +60,13 @@ header {
   }
   
   .indicator {
-    padding: 2px 4px;
+    padding: 4px 7px;
     border-radius: 50%;
     background-color: #E5BCD9;
     color: #000;
     font-size: xx-small;
     text-align: center;
+    margin: 1px;
   }
   
   .accountAndCartHeader i:hover {
