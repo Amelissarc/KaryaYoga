@@ -9,6 +9,7 @@ const Item =() => {
     const [productsData, setProductsData] = React.useState({});
     React.useEffect(() => {
         const db = getFirestore ();
+
         const itemsCollection = collection (db, "products");
         getDocs (itemsCollection)
         .then ((products) => {
@@ -19,7 +20,7 @@ const Item =() => {
                 products.docs.map((doc) => ({ id: doc.id, ...doc.data() }))
             );
         })
-        .catch(err => console.log(err))
+        .catch((err) => console.log(err))
         .then(()=> {
             console.log(productsData);
         })

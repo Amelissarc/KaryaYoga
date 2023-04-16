@@ -21,8 +21,8 @@ const ItemListContainer = ({ greeting }) => {
             productsQuery = productsCollection;
         }
         getDocs(productsQuery)
-        .then((snapshot) => {
-            const productsData = snapshot.docs.map((doc) => ({
+        .then((products) => {
+            const productsData = products.docs.map((doc) => ({
                 id: doc.id,
                 ...doc.data(),
             }));

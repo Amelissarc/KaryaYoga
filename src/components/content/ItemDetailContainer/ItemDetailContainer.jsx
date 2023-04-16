@@ -13,7 +13,7 @@ const ItemDetailContainer = () => {
         const db =getFirestore();
         const docRef = doc(db, "product", id);
         getDocs(docRef)
-        .then(product => {
+        .then((product) => {
             if(product.exists()) {
                 console.log("no products found")
             }
@@ -32,8 +32,8 @@ const ItemDetailContainer = () => {
     <Loader />
     ) : (
     <div>
-        {productsData.map((products) => (
-            <ItemDetail products={products} />
+        {productsData.map((compra) => (
+            <ItemDetail key={compra.id} compra={compra} />
         ))}
     </div>
     );
