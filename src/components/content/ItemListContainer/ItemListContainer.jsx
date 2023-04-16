@@ -1,6 +1,6 @@
 import React  from 'react';
 import ItemList from '../ItemList/ItemList';
-import loader from '../loader/loader';
+import Loader from '../loader/loader';
 import { useParams } from 'react-router-dom';
 import { collection, getDocs, getFirestore, query, where } from 'firebase/firestore';
 import Style from './ItemList.css';
@@ -37,7 +37,7 @@ const ItemListContainer = ({ greeting }) => {
             <h2>
             {greeting} <span style={{ color: '#561220' }}>{id && id}</span>
             </h2>
-            {loading ? <loader /> : <ItemList listaProductos={listaProductos} />}
+            {loading ? <Loader /> : <ItemList listaProductos={listaProductos} />}
         </div>
     );
 };

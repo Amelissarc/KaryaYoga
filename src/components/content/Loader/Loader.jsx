@@ -1,7 +1,7 @@
 import React from 'react';
 import { Ring } from '@uiball/loaders';
 
-const loader = () => {
+const Loader = () => {
     return (
     <div
         style={{
@@ -21,4 +21,4 @@ const loader = () => {
     );
 };
 
-export default loader;
+export default Loader;
