@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { useCart } from '../../../context/CartContext'
 
 export const CartWidget = () => {
@@ -7,7 +7,10 @@ export const CartWidget = () => {
     
 return (
     <div className='cartWidge'>
-        <a href="./Cart" ><i className="fa-solid fa-cart-shopping"></i><span className='indicator'>{cartQuantity() || '0'}</span></a>
+        <a href="./Cart" >
+            <i className="fa-solid fa-cart-shopping"></i>
+            <span className='indicator'>{cartQuantity() || '0'}</span>
+        </a>
         
         <span>{titleName}</span>
     </div>

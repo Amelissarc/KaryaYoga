@@ -28,9 +28,13 @@ const ItemDetailContainer = () => {
         // .finally(() => setLoading(false));
     }, []);
 
-    return (
+    return  loading ? (
+    <Loader />
+    ) : (
     <div>
-        {loading ? <Loader /> : <ItemDetail productsData={productsData} />}
+        {productsData.map((products) => (
+            <ItemDetail products={products} />
+        ))}
     </div>
     );
 };

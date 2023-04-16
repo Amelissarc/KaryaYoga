@@ -4,7 +4,7 @@ import styles from './Footer.css';
 
 export const Footer = () => {
 return (
-    <React.Fragment>
+    <div>
         <footer className="footer">
         <div className="containerFooter">
             <div className="boxFooter">
@@ -60,7 +60,7 @@ return (
             </div>
         </div>
         </footer>
-    </React.Fragment>
+    </div>
 )
 }
 

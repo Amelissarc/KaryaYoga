@@ -3,6 +3,7 @@ import ItemCount from '../ItemCount/ItemCount';
 import { useCart } from '../../../context/CartContext';
 import { Link, useParams } from 'react-router-dom';
 import { doc, getDocs, getFirestore } from "firebase/firestore"
+import Loader from '../Loader/Loader';
 import Style from './ItemDetail.css';
 
 const ItemDetail = () => {
@@ -15,7 +16,7 @@ const ItemDetail = () => {
         
     React.useEffect(() => {
             const db = getFirestore();
-            const docRef = doc(db, "product", id);
+            const docRef = doc(db, "products", id);
             getDocs(docRef)
             .then(product => {
                 if(product.exists()) {
@@ -33,7 +34,7 @@ const ItemDetail = () => {
         setCompra(true);
     };
 
-    return loading ? <loader /> : (
+    return loading ? <Loader /> : (
     <div className='containerDetail'> 
         <div  className='card-detail'>
             <div className='card-content'>

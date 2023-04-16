@@ -1,18 +1,17 @@
 import React from "react";
 import { useNavigate } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
-import { collection, getDocs, getFirestore } from "firebase/firestore"
+import { collection, getDocs, getFirestore } from "firebase/firestore";
 
 const Item =() => {
     // const { id, category, img, name, text, price, stock} = producto;
     const navegar = useNavigate();
     const [productsData, setProductsData] = React.useState({});
-    const [loading, setLoading] = React.useState(true);
     React.useEffect(() => {
         const db = getFirestore ();
         const itemsCollection = collection (db, "products");
         getDocs (itemsCollection)
-        .then (products => {
+        .then ((products) => {
             if(products.length === 0) {
                 console.log("No products")
             }
@@ -23,11 +22,10 @@ const Item =() => {
         .catch(err => console.log(err))
         .then(()=> {
             console.log(productsData);
-            setLoading(false);
         })
     }, []);
 
-    return loading ? <loader /> :(
+    return (
     <Card style={{ width: '20rem' }} className="card-container">
         <Card.Img variant="top" src={productsData.img} className="card-img"/>
         <Card.Body >
