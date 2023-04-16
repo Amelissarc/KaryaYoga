@@ -2,8 +2,8 @@ import React from 'react';
 import ItemCount from '../ItemCount/ItemCount';
 import { useCart } from '../../../context/CartContext';
 import { Link, useParams } from 'react-router-dom';
-import { doc, getDoc, getFirestore } from "firebase/firestore";
-import Loader from '../loader/loader';
+import { doc, getDoc, getFirestore } from "firebase/firestore"
+import Loader from '../Loader/Loader';
 import Style from './ItemDetail.css';
 
 const ItemDetail = () => {

@@ -2,7 +2,7 @@ import React from 'react';
 // import { getProducts } from '../../../Json/FakeApi';
 import { doc, getDocs, getFirestore } from "firebase/firestore";
 import ItemDetail from '../ItemDetail/ItemDetail';
-import Loader from '../loader/loader';
+import Loader from '../Loader/Loader';
 import { useParams } from 'react-router-dom';
 
 const ItemDetailContainer = () => {

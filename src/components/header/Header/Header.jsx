@@ -3,9 +3,7 @@ import CartWidget from '../CartWidget/CartWidget';
 import LoginWidget from '../LoginWidget/LoginWidget';
 import Style from './Header.css'
 import NavbarDarkExample from '../NavBar/NavBar'
-
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
+import SearchProducts from '../../../context/SearchProducts';
 
 export const Header = () => {
     return (
@@ -15,17 +13,7 @@ export const Header = () => {
                     <img src="./img/tipo-blancotrabajo.png" alt="logo" className='logoHeader'/>
                 </div>
                 <div className='formSearch'>
-                <Form className="d-flex">
-                    <Form.Control
-                        type="search"
-                        placeholder="Search Products"
-                        className="me-2"
-                        aria-label="Search"
-                    />
-                    <Button variant="outline-success">
-                        <i className="fa-solid fa-magnifying-glass"></i>
-                    </Button>
-                </Form>
+                    <SearchProducts />
                 </div>
                 <div className='accountAndCartHeader'>
                     <a href="#">
@@ -46,3 +34,4 @@ export const Header = () => {
 }
 
 export default Header;
+

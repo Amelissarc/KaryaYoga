@@ -1,6 +1,6 @@
 import React  from 'react';
 import ItemList from '../ItemList/ItemList';
-import Loader from '../loader/loader';
+import Loader from '../Loader/Loader';
 import { useParams } from 'react-router-dom';
 import { collection, getDocs, getFirestore, query, where } from 'firebase/firestore';
 import Style from './ItemList.css';

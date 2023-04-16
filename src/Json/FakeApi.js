@@ -1,4 +1,4 @@
-    export const ProductsData = [
+    export const productos = [
         {
             id:"1",
             category:"Drinkware",
@@ -153,15 +153,15 @@
             buttonText:"Add to Cart"
         }
     ]
-    // export const getProducts = () => {
-    //     let error = false;
-    //     return new Promise((resolve, reject) => {
-    //         setTimeout(() => {
-    //         if (!error) {
-    //             resolve(productos);
-    //         } else {
-    //             reject('There was an error try later');
-    //         }
-    //         }, 2000);
-    //     });
-    // };
+    export const getProducts = () => {
+        let error = false;
+        return new Promise((resolve, reject) => {
+            setTimeout(() => {
+            if (!error) {
+                resolve(productos);
+            } else {
+                reject('There was an error try later');
+            }
+            }, 2000);
+        });
+    };
