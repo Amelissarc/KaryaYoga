@@ -6,7 +6,7 @@ import ItemDetailContainer from './components/content/ItemDetailContainer/ItemDe
 import ErrorPage from './components/content//Error/ErrorPage';
 import Footer from './components/footer/FooterComponent'
 import Style from './index.css';
-import Cart from './components/header/Cart/Cart'
+import Cart from './components/header/Cart/Cart';
 import { CartProvider } from './context/CartContext';
 
 export default function App() {

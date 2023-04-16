@@ -1,8 +1,8 @@
 import React from 'react';
 // import { getProducts } from '../../../Json/FakeApi';
-import { doc, getDocs, getFirestore } from "firebase/firestore"
+import { doc, getDocs, getFirestore } from "firebase/firestore";
 import ItemDetail from '../ItemDetail/ItemDetail';
-import Loader from '../Loader/Loader';
+import loader from '../loader/loader';
 import { useParams } from 'react-router-dom';
 
 const ItemDetailContainer = () => {
@@ -29,7 +29,7 @@ const ItemDetailContainer = () => {
     }, []);
 
     return  loading ? (
-    <Loader />
+    <loader />
     ) : (
     <div>
         {productsData.map((compra) => (

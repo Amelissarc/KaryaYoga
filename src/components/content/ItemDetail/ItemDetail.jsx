@@ -2,8 +2,8 @@ import React from 'react';
 import ItemCount from '../ItemCount/ItemCount';
 import { useCart } from '../../../context/CartContext';
 import { Link, useParams } from 'react-router-dom';
-import { doc, getDoc, getFirestore } from "firebase/firestore"
-import Loader from '../Loader/Loader';
+import { doc, getDoc, getFirestore } from "firebase/firestore";
+import loader from '../loader/loader';
 import Style from './ItemDetail.css';
 
 const ItemDetail = () => {
@@ -35,7 +35,7 @@ const ItemDetail = () => {
         setCompra(true);
     };
 
-    return loading ? <Loader /> : (
+    return loading ? <loader /> : (
     <div className='containerDetail'> 
         <div  className='card-detail'>
             <div className='card-content'>
