@@ -1,18 +1,23 @@
 
 .containerDetail {
     background-image:url(/public/img/tramatrabajo.png);
-    height: 600px;
+    height: 800px;
+    background-size: cover;
+}
+
+.card-detail {
+    padding: 6% 20%;
 }
 .card-content {
     display: flex;
     justify-content: center;
     align-items:start;
-    margin: 5rem 15%;
     background-color:#FFFFFF;
     border-radius: 8px;
     width: 1000px;
     height: 400px;
     border: 1px solid var(--chocolate);
+    padding: 5%;
 }
 h2.titleDetail {
     font-family: 'Montserrat', sans-serif;
@@ -79,6 +84,7 @@ h2.titleDetail {
 .cartpage {
     display: flex;
     justify-content: space-between;
+    height: 1200px;
 }
 .cartButtons {
     display: flex;
@@ -146,4 +152,18 @@ img {
 
 .goShopping {
     margin: 5rem;
+}
+
+.btnItemDetail {
+    display: flex;
+    margin-top: 2rem;
+    gap: 20px;
+}
+.btnItemDetail a {
+    text-decoration: none;
+}
+
+.btn-dark {
+    margin-bottom: 80px;
+    margin-top: -5px;
 }

@@ -50,10 +50,14 @@ const ItemDetail = () => {
                     <p className='text-detail'>{productsData.text}</p>
                     <p className="item-stock">Stock: {productsData.stock}</p>
                     {compra ? (
-
-                        <Link className="buttonText" to={'/cart'}>
+                    <div className='btnItemDetail'>
+                        <Link className="btn btn-danger" to={'/cart'}>
                             Go to cart
                         </Link>
+                        <Link className="btn btn-success" to={'/'}>
+                            Continue shopping
+                        </Link>
+                    </div>
                         ) : (
                         <ItemCount initial={1} stock={productsData.stock} onAdd={onAdd} />
                     )}

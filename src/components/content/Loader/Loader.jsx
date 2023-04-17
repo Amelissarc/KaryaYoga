@@ -8,7 +8,8 @@ const Loader = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        marginTop: '10rem',
+        marginTop: '5rem',
+        minHeight: '500px',
         }}
     >
         <Ring 

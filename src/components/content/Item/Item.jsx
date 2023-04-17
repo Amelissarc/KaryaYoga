@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Card from "react-bootstrap/Card";
 
-const Item = ({ producto }) => {
+const Item = ({ producto, onAdd }) => {
     // const { id, category, img, name, text, price, stock} = producto;
     const navegar = useNavigate();
+    const [count] = useState();
 
     return (
         <Card style={{ width: "20rem" }} className='card-container'>
@@ -22,7 +23,7 @@ const Item = ({ producto }) => {
                         className='buttonText'
                         onClick={() => navegar(`/item/${producto.id}`)}>
                         See more
-                    </button>
+                    </button> 
                 </div>
             </Card.Body>
         </Card>
