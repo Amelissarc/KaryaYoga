@@ -16,7 +16,7 @@ const ItemListContainer = ({ greeting }) => {
         const productsCollection = collection(db, 'products');
         let productsQuery;
         if (id) {
-            productsQuery = query(productsCollection, where('category', '==', productsData.category));
+            productsQuery = query(productsCollection, where('category', '==', id));
         } else {
             productsQuery = productsCollection;
         }

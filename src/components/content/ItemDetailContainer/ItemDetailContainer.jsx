@@ -1,6 +1,6 @@
 import React from 'react';
 // import { getProducts } from '../../../Json/FakeApi';
-import { doc, getDocs, getFirestore } from "firebase/firestore";
+import { doc, getDoc, getFirestore } from "firebase/firestore";
 import ItemDetail from '../ItemDetail/ItemDetail';
 import Loader from '../Loader/Loader';
 import { useParams } from 'react-router-dom';
@@ -12,12 +12,12 @@ const ItemDetailContainer = () => {
     React.useEffect(() => {
         const db =getFirestore();
         const docRef = doc(db, "product", id);
-        getDocs(docRef)
+        getDoc(docRef)
         .then((product) => {
-            if(product.exists()) {
+            if(!product.exists()) {
                 console.log("no products found")
             }
-            setProductData({ id: product.id, ...product.data()});
+            setProductData([{ id: product.id, ...product.data()}]);
         })
         .catch(err => console.error(err))
         .then(() =>{setLoading(false)})
