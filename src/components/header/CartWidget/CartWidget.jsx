@@ -11,7 +11,6 @@ return (
             <i className="fa-solid fa-cart-shopping"></i>
             <span className='indicator'>{cartQuantity() || '0'}</span>
         </a>
-        
         <span>{titleName}</span>
     </div>
 );

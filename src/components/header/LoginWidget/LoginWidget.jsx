@@ -1,13 +1,16 @@
-import React from 'react';
+import LoginWidget from './LoginPage';
 
-export const LoginWidget = () => {
-    const titleName = 'Sing in';
-return (
-    <div className='loginWidge'>
-        <i className="fa-regular fa-user"></i>
-        <span>{titleName}</span>
-    </div>
-);
-};
+function App() {
+    const handleLogin = () => {
+    // Perform login 
+    };
 
-export default LoginWidget;
+    return (
+        <div>
+            <LoginWidget onLogin={handleLogin} />
+        </div>
+    );
+}
+
+export default App;
+
