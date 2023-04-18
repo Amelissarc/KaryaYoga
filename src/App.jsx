@@ -8,7 +8,6 @@ import Footer from './components/footer/FooterComponent'
 import Style from './index.css';
 import Cart from './components/header/Cart/Cart';
 import { CartProvider } from './context/CartContext';
-import { Checkout } from './components/header/Cart/Checkout';
 
 export default function App() {
   return (
@@ -29,7 +28,6 @@ export default function App() {
         <Route path="/item/:id" element={<ItemDetailContainer />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="*" element={<ErrorPage />} />
-        <Route path='/Checkout' component={Checkout} />
       </Routes>
       <Footer />
     </BrowserRouter>

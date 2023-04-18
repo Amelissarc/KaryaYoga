@@ -39,7 +39,7 @@ const Cart = () => {
                     </button>
                     <button 
                         className='btn btn-success' 
-                        onClick={() => navegar('./Checkout')}>
+                        onClick={() => navegar('/Checkout')}>
                             Finish purchase
                     </button>
                 </div>
