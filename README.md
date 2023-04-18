@@ -13,6 +13,7 @@ Descargar el repositorio, instalar sus dependencias y luego ejecutar de manera l
 
 ### Dirección local:
 (http://localhost:3000)
+
 <p align="left">
    <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
 </p>
