@@ -29,10 +29,6 @@
     text-decoration: none;
   }
 
-  .navbar-dark-example {
-
-  }
-  
   a.nav-link:hover {
     color: var(--chocolate);
   }

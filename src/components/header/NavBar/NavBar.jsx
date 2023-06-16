@@ -85,19 +85,6 @@ export const NavbarDarkExample = () =>{
               </NavLink>
               </li>
             </ul>
-            <Navbar.Toggle aria-controls="navbar-dark-example" />
-            <Navbar.Collapse id="navbar-dark-example">
-            <Nav>
-                <NavDropdown
-                    id="nav-dropdown-dark-example"
-                    title="Favorites"
-                >
-                    <FolderList />
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action/3.4">Go to Home</NavDropdown.Item>
-                </NavDropdown>
-            </Nav>
-            </Navbar.Collapse>
         </Container>
         </Navbar>
     ); 
