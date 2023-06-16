@@ -13,9 +13,10 @@ Descargar el repositorio, instalar sus dependencias y luego ejecutar de manera l
 
 ### Dirección local:
 (http://localhost:3000)
-<p align="left">
-   <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
-</p>
+
+
+https://user-images.githubusercontent.com/107637019/232884155-c53834e1-8d2f-4ee3-a9bf-63d443a6afa4.mp4
+
 
 Este proyecto consiste en el desarrollo de una página web dedicada a la práctica de yoga y
 la venta de productos de la marca relacionados con este estilo de vida. 
